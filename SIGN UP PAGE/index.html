@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome all </title>
+    <style>
+        .container{
+            margin: auto;
+             width: 50%;
+             border: 2px solid #73AD21;
+             padding: 80px
+             
+
+
+        }
+        .container{
+            background-image: url(signbg.jpg);
+        }
+        h1,h2,h3{
+            color: antiquewhite;
+            border-radius: 20%;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        h1:hover{ 
+            color: rgb(44, 86, 122);
+        }
+    </style>
+</head>
+<body >
+    <div class="container">
+    <h1> SIGN UP <hr ></h1>
+    <br> <h3>
+    <form action="action_page.php">
+        <label id ="usrname" for="usrname"> USER NAME</label> 
+        <input type="text" id="usrname" name="usrname" required><br><br> 
+
+         <label id="pwd" for="name" >PASSWORD</label>
+        <input type="password" id="pwd" name="pwd"  pattern="(?=.*/d)(?=*[a-z]) .(?=*[A-Z]).{8,}"  title="Must contain atleast 1, one upper case and atleast 8 or more case, characters" required>
+<br><br>
+<input type="submit" value="submit" >
+</form></h3><hr id="line">
+</div>
+<div id="message">
+    <h3>password must contain the following:</h3>
+</div>
+</body>
+</html>
