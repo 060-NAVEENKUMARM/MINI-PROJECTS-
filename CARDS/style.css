@@ -1,0 +1,63 @@
+
+.container{
+   background-color: rgba(3, 5, 4, 0.938);
+   width: fit-content;
+   display: inline-flex;
+   gap: 60px;
+   width: 100%;
+   height: 900px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   -webkit-border-radius:10px;
+   -webkit-box-shadow:2px 4px 10px rgb(95, 2, 2);
+}
+.container1{
+   -webkit-border-radius:10px;
+   -webkit-box-shadow:2px 4px 10px rgb(95, 2, 2);
+   width: 200px;
+   height: 200px;
+   border: 2px solid rgb(226, 153, 43)  ;
+    background-color: aqua; 
+}
+
+.container2{
+   -webkit-border-radius:10px;
+   -webkit-box-shadow:2px 4px 10px rgb(95, 2, 2);
+   width: 200px;
+   height: 200px;
+   border: 2px solid rgb(226, 153, 43)  ;
+    background-color: rgb(212, 22, 101); 
+}
+.container3{
+   -webkit-border-radius:10px;
+   -webkit-box-shadow:2px 4px 10px rgb(95, 2, 2);
+   width: 200px;
+   height: 200px;
+   border: 2px solid rgb(37, 190, 16)  ;
+    background-color: rgb(148, 223, 8); 
+}
+img{
+ width: 200px;
+ height: 150px;
+ box-sizing: border-box;
+ -webkit-border-radius:10px;
+ -webkit-box-shadow:2px 4px 10px rgb(95, 2, 2);
+}
+img:hover{
+   transform: ;
+     
+}
+.container1:hover{
+   transform: translate(-8px,-16px) rotate(3deg);
+}
+.container2:hover{
+   transform: translate(-8px,-16px) rotate(3deg);
+box-shadow: 2px 3px whitesmoke;
+}
+.container3:hover{
+   transform: translate(-1px,-16px) rotate(3deg);
+}
+P{
+   text-align: center;
+}
